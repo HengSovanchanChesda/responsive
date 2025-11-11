@@ -1,0 +1,150 @@
+body{
+    margin:0px;
+    margin:0px;
+
+}
+.navbar{
+    top:0px;/* កំណត់ចំណុចជាប់នៅលើក្បាលទំព័រ */
+    position:sticky;
+}
+.navbar ul{
+    float:center;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    background-color:rgb(255, 255, 255);
+}
+.navbar li{
+    display:inline-block;
+
+}
+.navbar a{
+    text-decoration:none;
+    display:block;
+    padding:20px;
+    margin:0;
+    color:rgb(0, 0, 0);
+}
+a:hover{
+    background-color:black;
+    color:red;
+}
+.main{
+    height:500px;
+    width:100%;
+    background-color:red;
+    display:flex;
+}
+.content_1{
+    height:100%;
+    width:50%;
+    background-color:rgb(0, 153, 255);
+}
+.title h1 {
+    
+    margin-left:50px;
+    color:white;
+    font-size:2.5rem;
+}
+.form label{
+    font-size:20px;
+    color:white;
+    display:block;
+}
+.form input{
+    font-size:20px;
+    width:70%;
+    margin-bottom:5px;
+}
+.form{
+    margin-left:50px;
+}
+.content_2{
+    height:100%;
+    width:50%;
+    background-color:rgb(0, 153, 255);
+}
+.ifram{
+    margin:50px;
+    float:right;
+   
+}
+.footer{
+    height:600px;
+    width:100%;
+    background-color:rgb(255, 0, 0);
+}
+.title_1{
+    height:100px;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    
+}
+.content{
+    height:550px;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    text-align:center;
+}
+.box_1{
+    height:100%;
+    width:33.3%;
+    text-align:center;
+}
+.pic_1{
+    width:80%;
+    border: 2px solid;
+    height:100%;
+    margin:auto;
+}
+.text{
+    height:100px;
+    width:80%;
+    margin-left:50px;
+}
+
+
+.box_2{
+    height:100%;
+    width:33.33%;
+    
+    text-align:center;
+}
+.pic_2{
+    width:80%;
+    border: 2px solid;
+    margin:auto;
+    height:100%;
+}
+.box_3{
+    height:100%;
+    width:33.33%;
+    
+    text-align:center;
+    float:right;
+}
+.pic_3{
+    width:80%;
+    border: 2px solid;
+    height:100%;
+    margin:auto;
+}
+img{
+    width:300px;
+}
+.end_footer{
+    padding:1px;
+    height:50px;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    margin-top:30px;
+}
+.button{
+    font-size:1em;
+    color:rgb(0, 0, 0);
+}
+
+
